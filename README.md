@@ -1,5 +1,4 @@
-# Properties Comparator - Modul 450
-
+# Properties Comparator - Modul 450 LB2
 ## Beschreibung
 
 In diesem Projekt werden die Daten von 335 verkauften Immobilien aus dem Kanton Basel-Landschaft zwischen den Jahren 2011 und 2023 analysiert und

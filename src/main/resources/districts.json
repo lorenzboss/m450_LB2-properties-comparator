@@ -1,0 +1,42 @@
+[
+  {
+    "district_number": 1301,
+    "name": "Arlesheim",
+    "population": 30000,
+    "area": 96,
+    "average_age": 42,
+    "number_of_households": 12500
+  },
+  {
+    "district_number": 1302,
+    "name": "Laufen",
+    "population": 19000,
+    "area": 90,
+    "average_age": 40,
+    "number_of_households": 8000
+  },
+  {
+    "district_number": 1303,
+    "name": "Liestal",
+    "population": 35000,
+    "area": 85,
+    "average_age": 41,
+    "number_of_households": 14500
+  },
+  {
+    "district_number": 1304,
+    "name": "Sissach",
+    "population": 25000,
+    "area": 78,
+    "average_age": 43,
+    "number_of_households": 10500
+  },
+  {
+    "district_number": 1305,
+    "name": "Waldenburg",
+    "population": 12000,
+    "area": 60,
+    "average_age": 44,
+    "number_of_households": 5000
+  }
+]

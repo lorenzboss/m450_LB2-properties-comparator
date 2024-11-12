@@ -1,0 +1,2132 @@
+[
+  {
+    "year": "2011",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "719362"
+  },
+  {
+    "year": "2011",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "138233"
+  },
+  {
+    "year": "2011",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "346354"
+  },
+  {
+    "year": "2011",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "581285"
+  },
+  {
+    "year": "2011",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "812620"
+  },
+  {
+    "year": "2011",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1075317"
+  },
+  {
+    "year": "2011",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "512301"
+  },
+  {
+    "year": "2011",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2011",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "455317"
+  },
+  {
+    "year": "2011",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "568800"
+  },
+  {
+    "year": "2011",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2011",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "510687"
+  },
+  {
+    "year": "2011",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2011",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "350479"
+  },
+  {
+    "year": "2011",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "421274"
+  },
+  {
+    "year": "2011",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "551296"
+  },
+  {
+    "year": "2011",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "711549"
+  },
+  {
+    "year": "2011",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "573391"
+  },
+  {
+    "year": "2011",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "212600"
+  },
+  {
+    "year": "2011",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "498786"
+  },
+  {
+    "year": "2011",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "603913"
+  },
+  {
+    "year": "2011",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "734567"
+  },
+  {
+    "year": "2011",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "443028"
+  },
+  {
+    "year": "2011",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2011",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "329692"
+  },
+  {
+    "year": "2011",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "537150"
+  },
+  {
+    "year": "2011",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2012",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "767693"
+  },
+  {
+    "year": "2012",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "227800"
+  },
+  {
+    "year": "2012",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "431245"
+  },
+  {
+    "year": "2012",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "594376"
+  },
+  {
+    "year": "2012",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "848536"
+  },
+  {
+    "year": "2012",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1059829"
+  },
+  {
+    "year": "2012",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "652882"
+  },
+  {
+    "year": "2012",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2012",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "629000"
+  },
+  {
+    "year": "2012",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "627824"
+  },
+  {
+    "year": "2012",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "764167"
+  },
+  {
+    "year": "2012",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "517446"
+  },
+  {
+    "year": "2012",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "159530"
+  },
+  {
+    "year": "2012",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "349140"
+  },
+  {
+    "year": "2012",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "395997"
+  },
+  {
+    "year": "2012",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "574295"
+  },
+  {
+    "year": "2012",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "791768"
+  },
+  {
+    "year": "2012",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "547492"
+  },
+  {
+    "year": "2012",
+    "district_number": "1304",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2012",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "198750"
+  },
+  {
+    "year": "2012",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "418101"
+  },
+  {
+    "year": "2012",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "651970"
+  },
+  {
+    "year": "2012",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "610550"
+  },
+  {
+    "year": "2012",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "522385"
+  },
+  {
+    "year": "2012",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "( )"
+  },
+  {
+    "year": "2012",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "503500"
+  },
+  {
+    "year": "2012",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2013",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "806493"
+  },
+  {
+    "year": "2013",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "140975"
+  },
+  {
+    "year": "2013",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "361984"
+  },
+  {
+    "year": "2013",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "639178"
+  },
+  {
+    "year": "2013",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "862202"
+  },
+  {
+    "year": "2013",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1315014"
+  },
+  {
+    "year": "2013",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "564393"
+  },
+  {
+    "year": "2013",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "367000"
+  },
+  {
+    "year": "2013",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "448727"
+  },
+  {
+    "year": "2013",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "605767"
+  },
+  {
+    "year": "2013",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "803000"
+  },
+  {
+    "year": "2013",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "505617"
+  },
+  {
+    "year": "2013",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "215000"
+  },
+  {
+    "year": "2013",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "390393"
+  },
+  {
+    "year": "2013",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "493497"
+  },
+  {
+    "year": "2013",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "517022"
+  },
+  {
+    "year": "2013",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "704817"
+  },
+  {
+    "year": "2013",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "715797"
+  },
+  {
+    "year": "2013",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "300955"
+  },
+  {
+    "year": "2013",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "551071"
+  },
+  {
+    "year": "2013",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "795782"
+  },
+  {
+    "year": "2013",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "1025600"
+  },
+  {
+    "year": "2013",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "475289"
+  },
+  {
+    "year": "2013",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "296440"
+  },
+  {
+    "year": "2013",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "463000"
+  },
+  {
+    "year": "2013",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "542589"
+  },
+  {
+    "year": "2013",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2014",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "852199"
+  },
+  {
+    "year": "2014",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "256667"
+  },
+  {
+    "year": "2014",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "449759"
+  },
+  {
+    "year": "2014",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "671567"
+  },
+  {
+    "year": "2014",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "931694"
+  },
+  {
+    "year": "2014",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1205059"
+  },
+  {
+    "year": "2014",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "610016"
+  },
+  {
+    "year": "2014",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2014",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "450266"
+  },
+  {
+    "year": "2014",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "668400"
+  },
+  {
+    "year": "2014",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "745000"
+  },
+  {
+    "year": "2014",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "687434"
+  },
+  {
+    "year": "2014",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "177667"
+  },
+  {
+    "year": "2014",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "260667"
+  },
+  {
+    "year": "2014",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "516762"
+  },
+  {
+    "year": "2014",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "723250"
+  },
+  {
+    "year": "2014",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "882208"
+  },
+  {
+    "year": "2014",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "560783"
+  },
+  {
+    "year": "2014",
+    "district_number": "1304",
+    "rooms": "1",
+    "price": "140000"
+  },
+  {
+    "year": "2014",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "192190"
+  },
+  {
+    "year": "2014",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "456659"
+  },
+  {
+    "year": "2014",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "646444"
+  },
+  {
+    "year": "2014",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "913125"
+  },
+  {
+    "year": "2014",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "522710"
+  },
+  {
+    "year": "2014",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2014",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "381222"
+  },
+  {
+    "year": "2014",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "594650"
+  },
+  {
+    "year": "2014",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2015",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "779777"
+  },
+  {
+    "year": "2015",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "234500"
+  },
+  {
+    "year": "2015",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "501134"
+  },
+  {
+    "year": "2015",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "611014"
+  },
+  {
+    "year": "2015",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "910124"
+  },
+  {
+    "year": "2015",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1026545"
+  },
+  {
+    "year": "2015",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "561245"
+  },
+  {
+    "year": "2015",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2015",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "347500"
+  },
+  {
+    "year": "2015",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "572545"
+  },
+  {
+    "year": "2015",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "720233"
+  },
+  {
+    "year": "2015",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "621593"
+  },
+  {
+    "year": "2015",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "202500"
+  },
+  {
+    "year": "2015",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "390429"
+  },
+  {
+    "year": "2015",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "534580"
+  },
+  {
+    "year": "2015",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "698085"
+  },
+  {
+    "year": "2015",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "856833"
+  },
+  {
+    "year": "2015",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "730851"
+  },
+  {
+    "year": "2015",
+    "district_number": "1304",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2015",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "475000"
+  },
+  {
+    "year": "2015",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "532668"
+  },
+  {
+    "year": "2015",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "727014"
+  },
+  {
+    "year": "2015",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "908729"
+  },
+  {
+    "year": "2015",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "591554"
+  },
+  {
+    "year": "2015",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2015",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "511167"
+  },
+  {
+    "year": "2015",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "597323"
+  },
+  {
+    "year": "2015",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "784000"
+  },
+  {
+    "year": "2016",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "843344"
+  },
+  {
+    "year": "2016",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "225000"
+  },
+  {
+    "year": "2016",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "504113"
+  },
+  {
+    "year": "2016",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "732072"
+  },
+  {
+    "year": "2016",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "909051"
+  },
+  {
+    "year": "2016",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1278254"
+  },
+  {
+    "year": "2016",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "543062"
+  },
+  {
+    "year": "2016",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "172693"
+  },
+  {
+    "year": "2016",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "479889"
+  },
+  {
+    "year": "2016",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "713580"
+  },
+  {
+    "year": "2016",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "681820"
+  },
+  {
+    "year": "2016",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "633233"
+  },
+  {
+    "year": "2016",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2016",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "431000"
+  },
+  {
+    "year": "2016",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "599303"
+  },
+  {
+    "year": "2016",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "646426"
+  },
+  {
+    "year": "2016",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "823455"
+  },
+  {
+    "year": "2016",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "662000"
+  },
+  {
+    "year": "2016",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "443356"
+  },
+  {
+    "year": "2016",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "646571"
+  },
+  {
+    "year": "2016",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "729231"
+  },
+  {
+    "year": "2016",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "772279"
+  },
+  {
+    "year": "2016",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "585665"
+  },
+  {
+    "year": "2016",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2016",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "424800"
+  },
+  {
+    "year": "2016",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "597147"
+  },
+  {
+    "year": "2016",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2017",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "894464"
+  },
+  {
+    "year": "2017",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "267333"
+  },
+  {
+    "year": "2017",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "538398"
+  },
+  {
+    "year": "2017",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "732856"
+  },
+  {
+    "year": "2017",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "993172"
+  },
+  {
+    "year": "2017",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1280007"
+  },
+  {
+    "year": "2017",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "591569"
+  },
+  {
+    "year": "2017",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "463280"
+  },
+  {
+    "year": "2017",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "535000"
+  },
+  {
+    "year": "2017",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "687400"
+  },
+  {
+    "year": "2017",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "855403"
+  },
+  {
+    "year": "2017",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "669699"
+  },
+  {
+    "year": "2017",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2017",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "532000"
+  },
+  {
+    "year": "2017",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "535652"
+  },
+  {
+    "year": "2017",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "737923"
+  },
+  {
+    "year": "2017",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "811467"
+  },
+  {
+    "year": "2017",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "679997"
+  },
+  {
+    "year": "2017",
+    "district_number": "1304",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2017",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2017",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "613594"
+  },
+  {
+    "year": "2017",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "726766"
+  },
+  {
+    "year": "2017",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "902600"
+  },
+  {
+    "year": "2017",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "532138"
+  },
+  {
+    "year": "2017",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "381286"
+  },
+  {
+    "year": "2017",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "479136"
+  },
+  {
+    "year": "2017",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "564045"
+  },
+  {
+    "year": "2017",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "605000"
+  },
+  {
+    "year": "2018",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "924779"
+  },
+  {
+    "year": "2018",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2018",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "491133"
+  },
+  {
+    "year": "2018",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "747994"
+  },
+  {
+    "year": "2018",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "1024264"
+  },
+  {
+    "year": "2018",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1406650"
+  },
+  {
+    "year": "2018",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "594682"
+  },
+  {
+    "year": "2018",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2018",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "502556"
+  },
+  {
+    "year": "2018",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "635430"
+  },
+  {
+    "year": "2018",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2018",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "696220"
+  },
+  {
+    "year": "2018",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "163333"
+  },
+  {
+    "year": "2018",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "419833"
+  },
+  {
+    "year": "2018",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "477022"
+  },
+  {
+    "year": "2018",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "811791"
+  },
+  {
+    "year": "2018",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "932647"
+  },
+  {
+    "year": "2018",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "630553"
+  },
+  {
+    "year": "2018",
+    "district_number": "1304",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2018",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "434818"
+  },
+  {
+    "year": "2018",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "494158"
+  },
+  {
+    "year": "2018",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "694457"
+  },
+  {
+    "year": "2018",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "911250"
+  },
+  {
+    "year": "2018",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "542230"
+  },
+  {
+    "year": "2018",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "348333"
+  },
+  {
+    "year": "2018",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "495700"
+  },
+  {
+    "year": "2018",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "560047"
+  },
+  {
+    "year": "2018",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "626889"
+  },
+  {
+    "year": "2019",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "931931"
+  },
+  {
+    "year": "2019",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "398600"
+  },
+  {
+    "year": "2019",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "529910"
+  },
+  {
+    "year": "2019",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "768500"
+  },
+  {
+    "year": "2019",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "1025432"
+  },
+  {
+    "year": "2019",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1399948"
+  },
+  {
+    "year": "2019",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "543961"
+  },
+  {
+    "year": "2019",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "470000"
+  },
+  {
+    "year": "2019",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "475945"
+  },
+  {
+    "year": "2019",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "596083"
+  },
+  {
+    "year": "2019",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "( )"
+  },
+  {
+    "year": "2019",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "686659"
+  },
+  {
+    "year": "2019",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2019",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "446083"
+  },
+  {
+    "year": "2019",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "561291"
+  },
+  {
+    "year": "2019",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "782794"
+  },
+  {
+    "year": "2019",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "930824"
+  },
+  {
+    "year": "2019",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "645172"
+  },
+  {
+    "year": "2019",
+    "district_number": "1304",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2019",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "477333"
+  },
+  {
+    "year": "2019",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "662415"
+  },
+  {
+    "year": "2019",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "664788"
+  },
+  {
+    "year": "2019",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "710958"
+  },
+  {
+    "year": "2019",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "486560"
+  },
+  {
+    "year": "2019",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "406667"
+  },
+  {
+    "year": "2019",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "522513"
+  },
+  {
+    "year": "2020",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "937135"
+  },
+  {
+    "year": "2020",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "427700"
+  },
+  {
+    "year": "2020",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "567302"
+  },
+  {
+    "year": "2020",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "742673"
+  },
+  {
+    "year": "2020",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "1018303"
+  },
+  {
+    "year": "2020",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1376060"
+  },
+  {
+    "year": "2020",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "564951"
+  },
+  {
+    "year": "2020",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "439700"
+  },
+  {
+    "year": "2020",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "540693"
+  },
+  {
+    "year": "2020",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "600211"
+  },
+  {
+    "year": "2020",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "622500"
+  },
+  {
+    "year": "2020",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "706714"
+  },
+  {
+    "year": "2020",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2020",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "378000"
+  },
+  {
+    "year": "2020",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "527148"
+  },
+  {
+    "year": "2020",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "806185"
+  },
+  {
+    "year": "2020",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "921333"
+  },
+  {
+    "year": "2020",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "742663"
+  },
+  {
+    "year": "2020",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2020",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "606652"
+  },
+  {
+    "year": "2020",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "782038"
+  },
+  {
+    "year": "2020",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "956923"
+  },
+  {
+    "year": "2020",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "547316"
+  },
+  {
+    "year": "2020",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2020",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "421667"
+  },
+  {
+    "year": "2020",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "596333"
+  },
+  {
+    "year": "2020",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "737333"
+  },
+  {
+    "year": "2021",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "989364"
+  },
+  {
+    "year": "2021",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "338333"
+  },
+  {
+    "year": "2021",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "539468"
+  },
+  {
+    "year": "2021",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "780973"
+  },
+  {
+    "year": "2021",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "1080496"
+  },
+  {
+    "year": "2021",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1418235"
+  },
+  {
+    "year": "2021",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "654788"
+  },
+  {
+    "year": "2021",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "436667"
+  },
+  {
+    "year": "2021",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "616129"
+  },
+  {
+    "year": "2021",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "701240"
+  },
+  {
+    "year": "2021",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "833750"
+  },
+  {
+    "year": "2021",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "669864"
+  },
+  {
+    "year": "2021",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "187200"
+  },
+  {
+    "year": "2021",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "424583"
+  },
+  {
+    "year": "2021",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "571716"
+  },
+  {
+    "year": "2021",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "771876"
+  },
+  {
+    "year": "2021",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "910238"
+  },
+  {
+    "year": "2021",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "722640"
+  },
+  {
+    "year": "2021",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "374600"
+  },
+  {
+    "year": "2021",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "605648"
+  },
+  {
+    "year": "2021",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "701238"
+  },
+  {
+    "year": "2021",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "1012135"
+  },
+  {
+    "year": "2021",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "646410"
+  },
+  {
+    "year": "2021",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2021",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "599556"
+  },
+  {
+    "year": "2021",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "683178"
+  },
+  {
+    "year": "2021",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "786667"
+  },
+  {
+    "year": "2022",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "1118170"
+  },
+  {
+    "year": "2022",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "432500"
+  },
+  {
+    "year": "2022",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "592012"
+  },
+  {
+    "year": "2022",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "876622"
+  },
+  {
+    "year": "2022",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "1231471"
+  },
+  {
+    "year": "2022",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1689501"
+  },
+  {
+    "year": "2022",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "727940"
+  },
+  {
+    "year": "2022",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "497600"
+  },
+  {
+    "year": "2022",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "646278"
+  },
+  {
+    "year": "2022",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "766485"
+  },
+  {
+    "year": "2022",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "912547"
+  },
+  {
+    "year": "2022",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "791027"
+  },
+  {
+    "year": "2022",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "243124"
+  },
+  {
+    "year": "2022",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "496236"
+  },
+  {
+    "year": "2022",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "671737"
+  },
+  {
+    "year": "2022",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "866338"
+  },
+  {
+    "year": "2022",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "1142063"
+  },
+  {
+    "year": "2022",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "750012"
+  },
+  {
+    "year": "2022",
+    "district_number": "1304",
+    "rooms": "1",
+    "price": "294750"
+  },
+  {
+    "year": "2022",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "590250"
+  },
+  {
+    "year": "2022",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "739496"
+  },
+  {
+    "year": "2022",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "730687"
+  },
+  {
+    "year": "2022",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "939467"
+  },
+  {
+    "year": "2022",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "481750"
+  },
+  {
+    "year": "2022",
+    "district_number": "1305",
+    "rooms": "1",
+    "price": "( )"
+  },
+  {
+    "year": "2022",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "( )"
+  },
+  {
+    "year": "2022",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "461118"
+  },
+  {
+    "year": "2022",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "490667"
+  },
+  {
+    "year": "2022",
+    "district_number": "1305",
+    "rooms": "5+",
+    "price": "650000"
+  },
+  {
+    "year": "2023",
+    "district_number": "1301",
+    "rooms": "Total",
+    "price": "1061224"
+  },
+  {
+    "year": "2023",
+    "district_number": "1301",
+    "rooms": "1",
+    "price": "232415"
+  },
+  {
+    "year": "2023",
+    "district_number": "1301",
+    "rooms": "2",
+    "price": "609722"
+  },
+  {
+    "year": "2023",
+    "district_number": "1301",
+    "rooms": "3",
+    "price": "876671"
+  },
+  {
+    "year": "2023",
+    "district_number": "1301",
+    "rooms": "4",
+    "price": "1162445"
+  },
+  {
+    "year": "2023",
+    "district_number": "1301",
+    "rooms": "5+",
+    "price": "1493819"
+  },
+  {
+    "year": "2023",
+    "district_number": "1302",
+    "rooms": "Total",
+    "price": "761653"
+  },
+  {
+    "year": "2023",
+    "district_number": "1302",
+    "rooms": "2",
+    "price": "330060"
+  },
+  {
+    "year": "2023",
+    "district_number": "1302",
+    "rooms": "3",
+    "price": "590938"
+  },
+  {
+    "year": "2023",
+    "district_number": "1302",
+    "rooms": "4",
+    "price": "847424"
+  },
+  {
+    "year": "2023",
+    "district_number": "1302",
+    "rooms": "5+",
+    "price": "1175833"
+  },
+  {
+    "year": "2023",
+    "district_number": "1303",
+    "rooms": "Total",
+    "price": "851692"
+  },
+  {
+    "year": "2023",
+    "district_number": "1303",
+    "rooms": "1",
+    "price": "491667"
+  },
+  {
+    "year": "2023",
+    "district_number": "1303",
+    "rooms": "2",
+    "price": "648750"
+  },
+  {
+    "year": "2023",
+    "district_number": "1303",
+    "rooms": "3",
+    "price": "620795"
+  },
+  {
+    "year": "2023",
+    "district_number": "1303",
+    "rooms": "4",
+    "price": "868970"
+  },
+  {
+    "year": "2023",
+    "district_number": "1303",
+    "rooms": "5+",
+    "price": "1172190"
+  },
+  {
+    "year": "2023",
+    "district_number": "1304",
+    "rooms": "Total",
+    "price": "756676"
+  },
+  {
+    "year": "2023",
+    "district_number": "1304",
+    "rooms": "2",
+    "price": "478891"
+  },
+  {
+    "year": "2023",
+    "district_number": "1304",
+    "rooms": "3",
+    "price": "695647"
+  },
+  {
+    "year": "2023",
+    "district_number": "1304",
+    "rooms": "4",
+    "price": "866702"
+  },
+  {
+    "year": "2023",
+    "district_number": "1304",
+    "rooms": "5+",
+    "price": "989770"
+  },
+  {
+    "year": "2023",
+    "district_number": "1305",
+    "rooms": "Total",
+    "price": "647016"
+  },
+  {
+    "year": "2023",
+    "district_number": "1305",
+    "rooms": "2",
+    "price": "405600"
+  },
+  {
+    "year": "2023",
+    "district_number": "1305",
+    "rooms": "3",
+    "price": "547657"
+  },
+  {
+    "year": "2023",
+    "district_number": "1305",
+    "rooms": "4",
+    "price": "723120"
+  }
+]

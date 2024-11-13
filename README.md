@@ -1,4 +1,5 @@
 # Properties Comparator - Modul 450 LB2
+
 ## Beschreibung
 
 In diesem Projekt werden die Daten von 335 verkauften Immobilien aus dem Kanton Basel-Landschaft zwischen den Jahren 2011 und 2023 analysiert und
@@ -20,7 +21,7 @@ Es ist ein Java-Projekt, erstellt mit Maven, OpenJDK 22 und der Gson-Library zur
 2. Öffnen Sie das Projekt in IntelliJ IDEA.
 3. Installieren sie alle Abhängigkeiten mit Maven-IntelliJ Plugin.
 4. Wählen Sie die App-Klasse `App.java` in dem `/src` Ordner aus.
-7. Klicken Sie auf das grüne Play-Symbol neben der App-Klasse, um das Projekt auszuführen.
+5. Klicken Sie auf das grüne Play-Symbol neben der App-Klasse, um das Projekt auszuführen.
 
 **Hinweis: Dieses Projekt ist speziell für IntelliJ konfiguriert. Die Abhängigkeiten werden möglicherweise nicht korrekt erkannt, wenn das Projekt in
 einer anderen Entwicklungsumgebung ausgeführt wird.**
@@ -29,16 +30,17 @@ einer anderen Entwicklungsumgebung ausgeführt wird.**
 
 ## White-Box Testing
 
-### Unit Test 1: Mock statt DB-Verbindung
+### Unit-Test 1: Mock statt DB-Verbindung
 
 Für den ersten Unit-Test teste ich die `averagePricePerYear` Methode in der `AveragePrice` Klasse.
 Diese Methode errechnet den durchschnittlichen Verkaufspreis der Immobilien pro Jahr.
 
-### Unit Test 2: Mutation-Testing (Eigene Idee)
+### Unit-Test 2: Mutation-Testing (Eigene Idee)
 
 Für den zweiten Unit-Test teste ich die `mostExpensivePropertiesPrice` Methode in der `HighestPrice` Klasse.
 Diese Methode gibt die Preise der teuersten Immobilien zurück.
-Die Idee ist dass ich Mutation-Testing verwende, um zu überprüfen, ob die Methode korrekt funktioniert.
+Die Idee ist, dass ich Mutation-Testing verwende, um zu überprüfen, ob die Methode korrekt funktioniert.
+Wenn die Mutation Test ausgeführt wurden, kann man den Bericht in dem `target/pit-reports` Ordner finden (`index.html` Datei im Browser öffnen).
 Für die manuelle Mutation kann man zum Beispiel:
 
 - den AtomicInteger auf 0 setzen

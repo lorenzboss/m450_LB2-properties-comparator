@@ -15,8 +15,6 @@ Es ist ein Java-Projekt, erstellt mit Maven, OpenJDK 22 und der Gson-Library zur
 
 ## Ausführen des Projekts
 
-**TODO**
-
 1. Laden Sie das Projekt herunter oder klonen Sie das Projekt von GitHub.
 2. Öffnen Sie das Projekt in IntelliJ IDEA.
 3. Installieren sie alle Abhängigkeiten mit Maven-IntelliJ Plugin.

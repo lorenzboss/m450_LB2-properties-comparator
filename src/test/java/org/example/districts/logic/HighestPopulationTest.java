@@ -27,7 +27,7 @@ public class HighestPopulationTest {
   }
 
   @Test
-  void highestPopulationTest() {
+  void highestPopulation_CalculatesCorrectly() {
     List<District> districts =
         List.of(
             new District(1, "Arlesheim", 100_000, 1, 1, 1),
@@ -43,7 +43,7 @@ public class HighestPopulationTest {
   }
 
   @Test
-  void highestPopulationWithEmptyDistrictList() {
+  void highestPopulation_WithEmptyDistrictList() {
     Mockito.when(districtServiceMock.getDistricts()).thenReturn(Collections.emptyList());
 
     int result = highestPopulation.highestPopulation();
@@ -52,7 +52,7 @@ public class HighestPopulationTest {
   }
 
   @Test
-  void highestPopulationWithSingleDistrict() {
+  void highestPopulation_WithSingleDistrict() {
     List<District> districts = List.of(new District(1, "Arlesheim", 150_000, 1, 1, 1));
     Mockito.when(districtServiceMock.getDistricts()).thenReturn(districts);
 
@@ -62,7 +62,7 @@ public class HighestPopulationTest {
   }
 
   @Test
-  void highestPopulationWithNegativePopulation() {
+  void highestPopulation_WithNegativePopulation() {
     List<District> districts =
         List.of(
             new District(1, "Arlesheim", -1000, 1, 1, 1),

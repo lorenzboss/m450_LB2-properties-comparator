@@ -9,7 +9,7 @@ Es ist ein Java-Projekt, erstellt mit Maven, OpenJDK 22 und der Gson-Library zur
 ## Voraussetzungen
 
 * Apache Maven 3.9.9
-* Java Development Kit (JDK) 22
+* Java Development Kit (JDK) 17
 * IntelliJ IDEA (zum Ausführen des Projekts erforderlich)
 
 ## Ausführen des Projekts
@@ -18,11 +18,9 @@ Es ist ein Java-Projekt, erstellt mit Maven, OpenJDK 22 und der Gson-Library zur
 
 1. Laden Sie das Projekt herunter oder klonen Sie das Projekt von GitHub.
 2. Öffnen Sie das Projekt in IntelliJ IDEA.
-4. Die Gson-Library sollte bereits über IntelliJ als Projekt-Library erkannt werden.
-5. Wenn nicht, fügen Sie die Library hinzu, indem Sie auf `Project Structure` gehen und dann auf `Libraries`. Klicken Sie auf das "+"-Symbol und
-   wählen Sie die Library in dem `/lib` Ordner aus.
-6. Wählen Sie die Main-Klasse `Main.java` in dem `/src` Ordner aus.
-7. Klicken Sie auf das grüne Play-Symbol neben der Main-Klasse, um das Projekt auszuführen.
+3. Installieren sie alle Abhängigkeiten mit Maven-IntelliJ Plugin.
+4. Wählen Sie die App-Klasse `App.java` in dem `/src` Ordner aus.
+7. Klicken Sie auf das grüne Play-Symbol neben der App-Klasse, um das Projekt auszuführen.
 
 **Hinweis: Dieses Projekt ist speziell für IntelliJ konfiguriert. Die Abhängigkeiten werden möglicherweise nicht korrekt erkannt, wenn das Projekt in
 einer anderen Entwicklungsumgebung ausgeführt wird.**

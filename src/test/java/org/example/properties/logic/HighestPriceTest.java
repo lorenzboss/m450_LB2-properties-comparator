@@ -61,7 +61,7 @@ class HighestPriceTest {
     List<Map.Entry<Integer, Integer>> result = highestPrice.mostExpensiveProperties(3);
 
     assertEquals(1, result.size());
-    assertEquals(Map.entry(1, 750000), result.getFirst());
+    assertEquals(Map.entry(1, 750000), result.get(0));
   }
 
   @Test

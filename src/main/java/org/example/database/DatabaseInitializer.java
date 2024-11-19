@@ -1,5 +1,6 @@
 package org.example.database;
 
+import io.github.cdimascio.dotenv.Dotenv;
 import java.io.IOException;
 import java.sql.*;
 import java.util.List;
@@ -9,6 +10,8 @@ import org.example.properties.JsonToProperties;
 import org.example.properties.Property;
 
 public class DatabaseInitializer {
+  private static final Dotenv dotenv = Dotenv.load();
+
   private final JsonToDistricts jsonToDistricts;
   private final JsonToProperties jsonToProperties;
 
@@ -26,7 +29,7 @@ public class DatabaseInitializer {
   private void createDatabaseIfNotExists() {
     String postgresUrl = "jdbc:postgresql://localhost:5432/postgres";
 
-    try (Connection connection = DriverManager.getConnection(postgresUrl, "postgres", "postgres");
+    try (Connection connection = DriverManager.getConnection(dotenv.get("DB_URL"), dotenv.get("DB_USER"), dotenv.get("DB_PASSWORD"));
         Statement statement = connection.createStatement()) {
 
       statement.execute("CREATE DATABASE properties_db");

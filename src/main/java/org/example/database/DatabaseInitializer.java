@@ -26,7 +26,7 @@ public class DatabaseInitializer {
   private void createDatabaseIfNotExists() {
     String postgresUrl = "jdbc:postgresql://localhost:5432/postgres";
 
-    try (Connection connection = DriverManager.getConnection(postgresUrl, "postgres", "");
+    try (Connection connection = DriverManager.getConnection(postgresUrl, "postgres", "postgres");
         Statement statement = connection.createStatement()) {
 
       statement.execute("CREATE DATABASE properties_db");

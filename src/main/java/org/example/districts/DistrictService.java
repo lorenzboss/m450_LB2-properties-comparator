@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import org.example.Log;
 
 /**
  * This class gets the districts and executes the district logic.
@@ -44,11 +45,9 @@ public class DistrictService {
       }
 
     } catch (SQLException e) {
-      System.err.println("Fehler beim Auslesen der District-Daten: " + e.getMessage());
-      e.printStackTrace();
+      Log.error("An error occurred while reading the district data: " + e.getMessage());
     }
 
-    System.out.println("The districts were successfully extracted from the database.");
     return districts;
   }
 }

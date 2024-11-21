@@ -4,6 +4,8 @@ import io.github.cdimascio.dotenv.Dotenv;
 import java.io.IOException;
 import java.sql.*;
 import java.util.List;
+import java.util.Objects;
+import org.example.Log;
 import org.example.districts.District;
 import org.example.districts.JsonToDistricts;
 import org.example.properties.JsonToProperties;
@@ -27,18 +29,26 @@ public class DatabaseInitializer {
   }
 
   private void createDatabaseIfNotExists() {
-    String postgresUrl = "jdbc:postgresql://localhost:5432/postgres";
-
-    try (Connection connection = DriverManager.getConnection(dotenv.get("DB_URL"), dotenv.get("DB_USER"), dotenv.get("DB_PASSWORD"));
-        Statement statement = connection.createStatement()) {
-
-      statement.execute("CREATE DATABASE properties_db");
-      System.out.println("Datenbank 'properties_db' erfolgreich erstellt.");
+    try (Connection connection =
+        DriverManager.getConnection(
+            Objects.requireNonNull(dotenv.get("DB_URL")),
+            dotenv.get("DB_USER"),
+            dotenv.get("DB_PASSWORD"))) {
+      Log.info("Connected to the database 'properties_db'.");
     } catch (SQLException e) {
-      if (e.getMessage().contains("already exists")) {
-        System.out.println("Datenbank 'properties_db' existiert bereits.");
-      } else {
-        System.err.println("Fehler beim Erstellen der Datenbank: " + e.getMessage());
+      Log.warn("Database 'properties_db' does not exist. Attempting to create it...");
+
+      try (Connection adminConnection =
+              DriverManager.getConnection(
+                  Objects.requireNonNull(dotenv.get("ADMIN_DB_URL")),
+                  dotenv.get("DB_USER"),
+                  dotenv.get("DB_PASSWORD"));
+          Statement statement = adminConnection.createStatement()) {
+
+        statement.execute("CREATE DATABASE properties_db");
+        Log.success("Database 'properties_db' created successfully.");
+      } catch (SQLException createException) {
+        Log.error("Failed to create the database: " + createException.getMessage());
       }
     }
   }
@@ -69,37 +79,34 @@ public class DatabaseInitializer {
 
       stmt1.execute();
       stmt2.execute();
-      System.out.println("Datenbank und Tabellen erfolgreich initialisiert.");
     } catch (SQLException e) {
-      System.err.println("Fehler bei der Initialisierung der Datenbank: " + e.getMessage());
-      e.printStackTrace();
+      Log.error("Failed to create tables: " + e.getMessage());
     }
   }
 
   private void populateTablesIfEmpty() {
     try (Connection connection = DatabaseManager.getConnection()) {
-      // Prüfen, ob die District-Tabelle Daten enthält
+      // Check if the District table contains data
       if (!hasData(connection, "District")) {
-        System.out.println("District-Tabelle ist leer. Füge Daten hinzu...");
+        Log.warn("The 'District' table is empty. Importing data...");
         List<District> districts =
             jsonToDistricts.convertJsonToDistricts("src/main/resources/districts.json");
         insertDistricts(connection, districts);
       } else {
-        System.out.println("District-Tabelle hat bereits Daten.");
+        Log.info("The 'District' table already contains data.");
       }
 
-      // Prüfen, ob die Property-Tabelle Daten enthält
+      // Check if the Property table contains data
       if (!hasData(connection, "Property")) {
-        System.out.println("Property-Tabelle ist leer. Füge Daten hinzu...");
+        Log.warn("The 'Property' table is empty. Importing data...");
         List<Property> properties =
             jsonToProperties.convertJsonToProperties("src/main/resources/properties.json");
         insertProperties(connection, properties);
       } else {
-        System.out.println("Property-Tabelle hat bereits Daten.");
+        Log.info("The 'Property' table already contains data.");
       }
     } catch (SQLException | IOException e) {
-      System.err.println("Fehler beim Überprüfen oder Einfügen von Daten: " + e.getMessage());
-      e.printStackTrace();
+      Log.error("Failed to import data: " + e.getMessage());
     }
   }
 
@@ -127,7 +134,7 @@ public class DatabaseInitializer {
         statement.addBatch();
       }
       statement.executeBatch();
-      System.out.println("Daten in District-Tabelle erfolgreich eingefügt.");
+      Log.success("Data successfully imported into the 'District' table.");
     }
   }
 
@@ -147,7 +154,7 @@ public class DatabaseInitializer {
         statement.addBatch();
       }
       statement.executeBatch();
-      System.out.println("Daten in Property-Tabelle erfolgreich eingefügt.");
+      Log.success("Data successfully imported into the 'Property' table.");
     }
   }
 }

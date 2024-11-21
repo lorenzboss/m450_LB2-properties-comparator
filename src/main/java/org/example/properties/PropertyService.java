@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import org.example.Log;
 
 /**
  * This class gets the properties and executes the property logic.
@@ -40,11 +41,9 @@ public class PropertyService {
       }
 
     } catch (SQLException e) {
-      System.err.println("Fehler beim Auslesen der Property-Daten: " + e.getMessage());
-      e.printStackTrace();
+      Log.error("An error occurred while reading the property data: " + e.getMessage());
     }
 
-    System.out.println("The properties were successfully extracted from the database.");
     return properties;
   }
 }

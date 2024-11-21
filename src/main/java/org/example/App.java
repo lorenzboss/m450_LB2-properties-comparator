@@ -20,7 +20,6 @@ public class App {
     DatabaseInitializer initializer = new DatabaseInitializer(jsonToDistricts, jsonToProperties);
     initializer.initializeDatabase();
 
-    logicExecutor.executePropertyLogic();
-    logicExecutor.executeDistrictLogic();
+    logicExecutor.executeLogic();
   }
 }

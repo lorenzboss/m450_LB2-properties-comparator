@@ -17,7 +17,12 @@ public class LogicExecutor {
   private final AverageArea averageArea = new AverageArea(districtService);
   private final HighestPopulation highestPopulation = new HighestPopulation(districtService);
 
-  public void executePropertyLogic() {
+  public void executeLogic(){
+    executePropertyLogic();
+    executeDistrictLogic();
+  }
+
+  private void executePropertyLogic() {
     System.out.println("\n\nNumber of properties sold: " + numberOfSales.numberOfSales());
 
     System.out.println("\n\nNumber of sales per year:");
@@ -44,7 +49,7 @@ public class LogicExecutor {
                     "year: %d, average price: %.2f%n", entry.getKey(), entry.getValue()));
   }
 
-  public void executeDistrictLogic() {
+  private void executeDistrictLogic() {
     System.out.println(
         "\n\nThe district with the highest population: " + highestPopulation.highestPopulation());
 

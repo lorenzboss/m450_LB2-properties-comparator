@@ -29,7 +29,7 @@ public class DatabaseInitializer {
   }
 
   private void createDatabaseIfNotExists() {
-    try (Connection connection =
+    try (Connection ignored =
         DriverManager.getConnection(
             Objects.requireNonNull(dotenv.get("DB_URL")),
             dotenv.get("DB_USER"),

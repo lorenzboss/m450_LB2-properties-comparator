@@ -17,7 +17,7 @@ public class LogicExecutor {
   private final AverageArea averageArea = new AverageArea(districtService);
   private final HighestPopulation highestPopulation = new HighestPopulation(districtService);
 
-  public void executeLogic(){
+  public void executeLogic() {
     executePropertyLogic();
     executeDistrictLogic();
   }

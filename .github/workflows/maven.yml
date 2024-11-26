@@ -42,6 +42,9 @@ jobs:
           source .env
           set +o allexport
 
+      - name: Run Checkstyle Linting
+        run: mvn checkstyle:check
+
       - name: Build and Test with Maven
         run: mvn clean install
 
@@ -54,3 +57,10 @@ jobs:
         with:
           name: surefire-reports
           path: target/surefire-reports/
+
+      - name: Upload Checkstyle Report
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: checkstyle-report
+          path: target/site/checkstyle.html

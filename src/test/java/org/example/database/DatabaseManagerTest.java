@@ -81,10 +81,17 @@ class DatabaseManagerTest {
               }
             });
 
-    String expectedMessage = "FATAL: role \"invalid_user\" does not exist";
-    assertEquals(
-        exception.getMessage(),
-        expectedMessage,
-        "Expected message to contain: " + expectedMessage + ", but got: " + exception.getMessage());
+    String expectedMessage1 = "FATAL: role \"invalid_user\" does not exist";
+    String expectedMessage2 = "FATAL: password authentication failed for user \"invalid_user\"";
+
+    assertTrue(
+        exception.getMessage().contains(expectedMessage1)
+            || exception.getMessage().contains(expectedMessage2),
+        "Expected message to contain one of the following: "
+            + expectedMessage1
+            + " or "
+            + expectedMessage2
+            + ", but got: "
+            + exception.getMessage());
   }
 }

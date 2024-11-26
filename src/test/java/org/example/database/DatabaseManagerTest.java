@@ -53,9 +53,10 @@ class DatabaseManagerTest {
               }
             });
 
-    String expectedMessage = "The connection attempt failed.";
-    assertTrue(
-        exception.getMessage().contains(expectedMessage),
+    String expectedMessage = "invalid-url";
+    assertEquals(
+        exception.getCause().getMessage(),
+        expectedMessage,
         "Expected message to contain: " + expectedMessage + ", but got: " + exception.getMessage());
   }
 
@@ -80,9 +81,10 @@ class DatabaseManagerTest {
               }
             });
 
-    String expectedMessage = "FATAL: role \"invalid_user\" does not exist";
-    assertTrue(
-        exception.getMessage().contains(expectedMessage),
+    String expectedMessage = "FATAL: password authentication failed for user \"invalid_user\"";
+    assertEquals(
+        exception.getMessage(),
+        expectedMessage,
         "Expected message to contain: " + expectedMessage + ", but got: " + exception.getMessage());
   }
 }

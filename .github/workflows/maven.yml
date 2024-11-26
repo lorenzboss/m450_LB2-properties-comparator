@@ -35,26 +35,17 @@ jobs:
           docker run --name postgres-container -e POSTGRES_PASSWORD=${{ secrets.DB_PASSWORD }} -e POSTGRES_USER=${{ secrets.DB_USER }} -e POSTGRES_DB=properties_db -p 5432:5432 -d postgres:latest
           sleep 20 # Warten, bis die Datenbank hochgefahren ist
 
-      - name: Set environment variables from secrets
-        env:
-          DB_URL: ${{ secrets.DB_URL }}
-          DB_USER: ${{ secrets.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+      - name: Set up environment variables from .env file
         run: |
-          echo "Environment variables set. Ready to build."
+          # Lese die Umgebungsvariablen aus der .env-Datei und exportiere sie
+          set -o allexport
+          source .env
+          set +o allexport
 
       - name: Build and Test with Maven
-        env:
-          DB_URL: ${{ secrets.DB_URL }}
-          DB_USER: ${{ secrets.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
         run: mvn clean install
 
       - name: Run Mutation Tests with Pitest
-        env:
-          DB_URL: ${{ secrets.DB_URL }}
-          DB_USER: ${{ secrets.DB_USER }}
-          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
         run: mvn org.pitest:pitest-maven:mutationCoverage
 
       - name: Upload test results

@@ -31,11 +31,9 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Set up PostgreSQL Database
-        uses: docker://postgres:latest
-        env:
-          POSTGRES_PASSWORD: ${{ secrets.DB_PASSWORD }}
-        ports:
-          - 5432:5432
+        run: |
+          docker run --name postgres-container -e POSTGRES_PASSWORD=${{ secrets.DB_PASSWORD }} -e POSTGRES_USER=${{ secrets.DB_USER }} -e POSTGRES_DB=properties_db -p 5432:5432 -d postgres:latest
+          sleep 20 # Warten, bis die Datenbank hochgefahren ist
 
       - name: Set environment variables from secrets
         env:

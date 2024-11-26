@@ -81,7 +81,7 @@ class DatabaseManagerTest {
               }
             });
 
-    String expectedMessage = "FATAL: password authentication failed for user \"invalid_user\"";
+    String expectedMessage = "FATAL: role \"invalid_user\" does not exist";
     assertEquals(
         exception.getMessage(),
         expectedMessage,

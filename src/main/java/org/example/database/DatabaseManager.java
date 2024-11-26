@@ -12,8 +12,8 @@ public class DatabaseManager {
   public static Connection getConnection() throws SQLException {
     Dotenv dotenv = Dotenv.load(); // Dotenv wird zur Laufzeit geladen
     return DriverManager.getConnection(
-            Objects.requireNonNull(dotenv.get("DB_URL")),
-            dotenv.get("DB_USER"),
-            dotenv.get("DB_PASSWORD"));
+        Objects.requireNonNull(dotenv.get("DB_URL")),
+        dotenv.get("DB_USER"),
+        dotenv.get("DB_PASSWORD"));
   }
 }

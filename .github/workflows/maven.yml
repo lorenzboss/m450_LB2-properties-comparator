@@ -30,6 +30,16 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
+      - name: Set up environment variables
+        run: |
+          echo "DB_USER=${{ secrets.DB_USER }}" >> .env
+          echo "DB_PASSWORD=${{ secrets.DB_PASSWORD }}" >> .env
+          echo "OTHER_SECRET=${{ secrets.OTHER_SECRET }}" >> .env # Weitere Secrets falls nötig
+        env:
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          OTHER_SECRET: ${{ secrets.OTHER_SECRET }}
+
       - name: Build and Test with Maven
         run: mvn clean install
 

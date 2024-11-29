@@ -15,7 +15,7 @@ class DatabaseInitializerTest {
 
   @BeforeAll
   static void setUp() throws SQLException {
-    connection = DatabaseManager.getConnection();
+    connection = DatabaseConnector.getConnection();
     DatabaseInitializer initializer =
         new DatabaseInitializer(new JsonToDistricts(), new JsonToProperties());
     initializer.initializeDatabase();

@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Objects;
 
-public class DatabaseManager {
+public class DatabaseConnector {
   private static final Dotenv dotenv = Dotenv.load();
 
   public static Connection getConnection() throws SQLException {

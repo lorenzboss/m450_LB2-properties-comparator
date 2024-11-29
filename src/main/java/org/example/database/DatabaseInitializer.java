@@ -73,9 +73,9 @@ public class DatabaseInitializer {
             + "price INT"
             + ")";
 
-    try (Connection connection = DatabaseManager.getConnection();
-        PreparedStatement stmt1 = connection.prepareStatement(sqlDistrictTable);
-        PreparedStatement stmt2 = connection.prepareStatement(sqlPropertyTable)) {
+    try (Connection connection = DatabaseConnector.getConnection();
+         PreparedStatement stmt1 = connection.prepareStatement(sqlDistrictTable);
+         PreparedStatement stmt2 = connection.prepareStatement(sqlPropertyTable)) {
 
       stmt1.execute();
       stmt2.execute();
@@ -85,7 +85,7 @@ public class DatabaseInitializer {
   }
 
   private void populateTablesIfEmpty() {
-    try (Connection connection = DatabaseManager.getConnection()) {
+    try (Connection connection = DatabaseConnector.getConnection()) {
       // Check if the District table contains data
       if (!hasData(connection, "District")) {
         Log.warn("The 'District' table is empty. Importing data...");

@@ -1,6 +1,6 @@
 package org.example.properties;
 
-import static org.example.database.DatabaseManager.getConnection;
+import static org.example.database.DatabaseConnector.getConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

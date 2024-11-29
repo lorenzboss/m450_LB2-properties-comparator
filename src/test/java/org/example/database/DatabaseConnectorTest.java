@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
-class DatabaseManagerTest {
+class DatabaseConnectorTest {
 
   private MockedStatic<Dotenv> mockedDotenv;
 
@@ -26,7 +26,7 @@ class DatabaseManagerTest {
     // Kein Mocking für diesen Test
     assertDoesNotThrow(
         () -> {
-          try (Connection connection = DatabaseManager.getConnection()) {
+          try (Connection connection = DatabaseConnector.getConnection()) {
             assertNotNull(connection, "The database connection should not be null.");
           }
         });
@@ -48,7 +48,7 @@ class DatabaseManagerTest {
         assertThrows(
             SQLException.class,
             () -> {
-              try (Connection connection = DatabaseManager.getConnection()) {
+              try (Connection connection = DatabaseConnector.getConnection()) {
                 connection.isValid(2); // Verbindung explizit validieren
               }
             });
@@ -76,7 +76,7 @@ class DatabaseManagerTest {
         assertThrows(
             SQLException.class,
             () -> {
-              try (Connection connection = DatabaseManager.getConnection()) {
+              try (Connection connection = DatabaseConnector.getConnection()) {
                 connection.isValid(2); // Verbindung explizit validieren
               }
             });

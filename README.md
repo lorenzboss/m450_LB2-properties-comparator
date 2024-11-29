@@ -5,12 +5,15 @@
 In diesem Projekt werden die Daten von 335 verkauften Immobilien aus dem Kanton Basel-Landschaft zwischen den Jahren 2011 und 2023 analysiert und
 verglichen.
 
-Es ist ein Java-Projekt, erstellt mit Maven, OpenJDK 22 und der Gson-Library zur JSON-Verarbeitung von Google.
+Es ist eine Java-Maven-Konsolenapplikation, mit einer Anbindung an eine Postgres-Datenbank.
+
+In der LB2 wurde das Projekt um Mutation-Tests erweitert.
 
 ## Voraussetzungen
 
 * Apache Maven 3.9.9
 * Java Development Kit (JDK) 17
+* PostgreSQL 13.4
 * IntelliJ IDEA (zum Ausführen des Projekts erforderlich)
 
 ## Ausführen des Projekts
@@ -26,40 +29,29 @@ einer anderen Entwicklungsumgebung ausgeführt wird.**
 
 # Tests
 
-## White-Box Testing
+## Tests ausführen
 
-### Unit-Test 1: Mock statt DB-Verbindung
-
-Für den ersten Unit-Test teste ich die `averagePricePerYear` Methode in der `AveragePrice` Klasse.
-Diese Methode errechnet den durchschnittlichen Verkaufspreis der Immobilien pro Jahr.
-
-### Unit-Test 2: Mutation-Testing (Eigene Idee)
-
-Für den zweiten Unit-Test teste ich die `mostExpensivePropertiesPrice` Methode in der `HighestPrice` Klasse.
-Diese Methode gibt die Preise der teuersten Immobilien zurück.
-Die Idee ist, dass ich Mutation-Testing verwende, um zu überprüfen, ob die Methode korrekt funktioniert.
-Wenn die Mutation Test ausgeführt wurden, kann man den Bericht in dem `target/pit-reports` Ordner finden (`index.html` Datei im Browser öffnen).
-Für die manuelle Mutation kann man zum Beispiel:
-
-- den AtomicInteger auf 0 setzen
-- das Filtern der Immobilien entfernen
-- das absteigende Sortieren der Immobilien ändern
-
-## Test-Driven-Development (TDD)
-
-Für das Test-Driven-Development erstelle ich eine neue Methode, welche die Districts aggregiert.
-
-## Test ausführen
-
-### Normale Tests ausführen:
+Die Tests Unit und Integrations können mit dem folgenden Befehl ausgeführt werden:
 
 ```
 mvn test
 ```
 
-### Mutation-Tests ausführen:
+Die Mutation-Tests können mit dem folgenden Befehl ausgeführt werden
 
 ```
 mvn org.pitest:pitest-maven:mutationCoverage
 ```
 
+Das Linting kann mit dem folgenden Befehl ausgeführt werden:
+
+```
+mvn checkstyle:check
+```
+
+## Mutation-Tests
+
+Wir haben uns bei den Schwerpunkten für Datenbankverbindung, Datenintegrität und Datenvalidierung entschieden.
+Die Datenbankverbindung wird im `DatabaseConnectionTest` getestet.
+Die Datenintegrität wird im `DatabaseInitializerTest` getestet.
+Die Datenvalidierung wird im `PropertyValidationTest` und `DistrictValidationTest` getestet.

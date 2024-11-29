@@ -19,7 +19,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Sichere Versionen für problematische Abhängigkeiten -->
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>

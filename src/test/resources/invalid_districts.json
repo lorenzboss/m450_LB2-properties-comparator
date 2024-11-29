@@ -1,0 +1,18 @@
+[
+  {
+    "district_number": 1302,
+    "name": 576,
+    "population": 30000,
+    "area": 96,
+    "average_age": 42,
+    "number_of_households": "holok"
+  },
+  {
+    "district_number": 1302,
+    "name": "Liestal",
+    "population": 19000,
+    "area": 90,
+    "average_age": 40,
+    "number_of_households": 8000
+  }
+]

@@ -1,5 +1,6 @@
 package org.example.districts;
 
+import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -25,6 +26,7 @@ public class JsonToDistricts {
    */
   public List<District> convertJsonToDistricts(String filePath) throws IOException {
     GsonBuilder gsonBuilder = new GsonBuilder();
+    gsonBuilder.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES);
     Gson gson = gsonBuilder.create();
 
     Type listType = new TypeToken<List<District>>() {}.getType();

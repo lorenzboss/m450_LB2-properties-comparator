@@ -80,8 +80,8 @@ public class DatabaseInitializer {
             + ")";
 
     try (Connection connection = DatabaseConnector.getConnection();
-         PreparedStatement stmt1 = connection.prepareStatement(sqlDistrictTable);
-         PreparedStatement stmt2 = connection.prepareStatement(sqlPropertyTable)) {
+        PreparedStatement stmt1 = connection.prepareStatement(sqlDistrictTable);
+        PreparedStatement stmt2 = connection.prepareStatement(sqlPropertyTable)) {
 
       stmt1.execute();
       stmt2.execute();
@@ -133,12 +133,12 @@ public class DatabaseInitializer {
             + "VALUES (?, ?, ?, ?, ?, ?)";
     try (PreparedStatement statement = connection.prepareStatement(sql)) {
       for (District district : districts) {
-        statement.setInt(1, district.district_number());
+        statement.setInt(1, district.districtNumber());
         statement.setString(2, district.name());
         statement.setInt(3, district.population());
         statement.setInt(4, district.area());
-        statement.setInt(5, district.average_age());
-        statement.setInt(6, district.number_of_households());
+        statement.setInt(5, district.averageAge());
+        statement.setInt(6, district.numberOfHouseholds());
         statement.addBatch();
       }
       statement.executeBatch();
@@ -152,7 +152,7 @@ public class DatabaseInitializer {
     try (PreparedStatement statement = connection.prepareStatement(sql)) {
       for (Property property : properties) {
         statement.setInt(1, property.year());
-        statement.setInt(2, property.district_number());
+        statement.setInt(2, property.districtNumber());
         statement.setString(3, property.rooms().name());
         if (property.price() != null) {
           statement.setInt(4, property.price());

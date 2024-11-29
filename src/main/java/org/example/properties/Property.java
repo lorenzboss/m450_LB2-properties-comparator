@@ -6,4 +6,4 @@ package org.example.properties;
  * @author Lorenz Boss
  * @version 1.0
  */
-public record Property(int year, int district_number, Rooms rooms, Integer price) {}
+public record Property(int year, int districtNumber, Rooms rooms, Integer price) {}

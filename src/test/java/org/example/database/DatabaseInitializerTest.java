@@ -185,17 +185,17 @@ class DatabaseInitializerTest {
     String sql =
         "INSERT INTO District (district_number, name, population, area, average_age, number_of_households) VALUES (?, ?, ?, ?, ?, ?)";
     try (PreparedStatement stmt = connection.prepareStatement(sql)) {
-      stmt.setNull(1, java.sql.Types.INTEGER); // district_number (NOT NULL)
+      stmt.setNull(1, java.sql.Types.INTEGER); // districtNumber (NOT NULL)
       stmt.setString(2, "Test District"); // name
       stmt.setInt(3, 10000); // population
       stmt.setInt(4, 50); // area
-      stmt.setInt(5, 35); // average_age
-      stmt.setInt(6, 3000); // number_of_households
+      stmt.setInt(5, 35); // averageAge
+      stmt.setInt(6, 3000); // numberOfHouseholds
 
       SQLException exception = assertThrows(SQLException.class, stmt::executeUpdate);
       assertTrue(
           exception.getMessage().contains("violates not-null constraint"),
-          "Expected a NOT NULL constraint violation for 'district_number'.");
+          "Expected a NOT NULL constraint violation for 'districtNumber'.");
     } catch (SQLException e) {
       fail("Test setup failed: " + e.getMessage());
     }
@@ -204,14 +204,14 @@ class DatabaseInitializerTest {
         "INSERT INTO Property (year, district_number, rooms, price) VALUES (?, ?, ?, ?)";
     try (PreparedStatement stmt = connection.prepareStatement(sqlProperty)) {
       stmt.setInt(1, 2023); // year
-      stmt.setNull(2, java.sql.Types.INTEGER); // district_number (NOT NULL)
+      stmt.setNull(2, java.sql.Types.INTEGER); // districtNumber (NOT NULL)
       stmt.setString(3, "TWO"); // rooms
       stmt.setInt(4, 100000); // price
 
       SQLException exception = assertThrows(SQLException.class, stmt::executeUpdate);
       assertTrue(
           exception.getMessage().contains("violates not-null constraint"),
-          "Expected a NOT NULL constraint violation for 'district_number' in Property table.");
+          "Expected a NOT NULL constraint violation for 'districtNumber' in Property table.");
     } catch (SQLException e) {
       fail("Test setup failed: " + e.getMessage());
     }
@@ -222,7 +222,7 @@ class DatabaseInitializerTest {
     String sql = "INSERT INTO Property (year, district_number, rooms, price) VALUES (?, ?, ?, ?)";
     try (PreparedStatement statement = connection.prepareStatement(sql)) {
       statement.setInt(1, 2023); // Property Year
-      statement.setInt(2, 9999); // Non-existent district_number
+      statement.setInt(2, 9999); // Non-existent districtNumber
       statement.setString(3, "TWO"); // Property Rooms
       statement.setInt(4, 100000); // Property Price
 

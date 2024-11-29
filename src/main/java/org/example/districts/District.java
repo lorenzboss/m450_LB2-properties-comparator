@@ -7,9 +7,9 @@ package org.example.districts;
  * @author Lorenz Boss
  */
 public record District(
-    int district_number,
+    int districtNumber,
     String name,
     int population,
     int area,
-    int average_age,
-    int number_of_households) {}
+    int averageAge,
+    int numberOfHouseholds) {}

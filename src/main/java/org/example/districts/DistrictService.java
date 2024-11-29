@@ -46,6 +46,7 @@ public class DistrictService {
 
     } catch (SQLException e) {
       Log.error("An error occurred while reading the district data: " + e.getMessage());
+      e.printStackTrace();
     }
 
     return districts;

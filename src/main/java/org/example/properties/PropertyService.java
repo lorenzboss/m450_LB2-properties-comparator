@@ -42,6 +42,7 @@ public class PropertyService {
 
     } catch (SQLException e) {
       Log.error("An error occurred while reading the property data: " + e.getMessage());
+      e.printStackTrace();
     }
 
     return properties;

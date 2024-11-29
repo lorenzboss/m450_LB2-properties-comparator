@@ -49,6 +49,7 @@ public class DatabaseInitializer {
         Log.success("Database 'properties_db' created successfully.");
       } catch (SQLException createException) {
         Log.error("Failed to create the database: " + createException.getMessage());
+        createException.printStackTrace();
       }
     }
   }
@@ -81,6 +82,7 @@ public class DatabaseInitializer {
       stmt2.execute();
     } catch (SQLException e) {
       Log.error("Failed to create tables: " + e.getMessage());
+      e.printStackTrace();
     }
   }
 
@@ -107,6 +109,7 @@ public class DatabaseInitializer {
       }
     } catch (SQLException | IOException e) {
       Log.error("Failed to import data: " + e.getMessage());
+      e.printStackTrace();
     }
   }
 

@@ -8,6 +8,7 @@ import org.example.properties.logic.AveragePrice;
 import org.example.properties.logic.HighestPrice;
 import org.example.properties.logic.NumberOfSales;
 
+/** This class is responsible for executing the logic of the application. */
 public class LogicExecutor {
   private final PropertyService propertyService = new PropertyService();
   private final DistrictService districtService = new DistrictService();
@@ -17,6 +18,7 @@ public class LogicExecutor {
   private final AverageArea averageArea = new AverageArea(districtService);
   private final HighestPopulation highestPopulation = new HighestPopulation(districtService);
 
+  /** This method executes the logic of the application. */
   public void executeLogic() {
     executePropertyLogic();
     executeDistrictLogic();

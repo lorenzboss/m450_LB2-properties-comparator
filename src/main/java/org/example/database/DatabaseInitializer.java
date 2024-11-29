@@ -11,6 +11,7 @@ import org.example.districts.JsonToDistricts;
 import org.example.properties.JsonToProperties;
 import org.example.properties.Property;
 
+/** This class is responsible for initializing the database. */
 public class DatabaseInitializer {
   private static final Dotenv dotenv = Dotenv.load();
 
@@ -22,6 +23,10 @@ public class DatabaseInitializer {
     this.jsonToProperties = jsonToProperties;
   }
 
+  /**
+   * This method initializes the database by creating it if it does not exist, creating tables if
+   * they do not exist, and populating tables if they are empty.
+   */
   public void initializeDatabase() {
     createDatabaseIfNotExists();
     createTablesIfNotExist();

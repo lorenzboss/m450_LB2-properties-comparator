@@ -12,11 +12,6 @@ import org.example.properties.JsonToProperties;
  */
 public class App {
 
-  /**
-   * This method initializes the database and executes the logic methods.
-   *
-   * @param args The command line arguments.
-   */
   public static void main(String[] args) {
     JsonToDistricts jsonToDistricts = new JsonToDistricts();
     JsonToProperties jsonToProperties = new JsonToProperties();

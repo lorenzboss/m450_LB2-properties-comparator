@@ -23,7 +23,6 @@ class DatabaseConnectorTest {
 
   @Test
   void testDatabaseConnectionSuccess() {
-    // Kein Mocking für diesen Test
     assertDoesNotThrow(
         () -> {
           try (Connection connection = DatabaseConnector.getConnection()) {
@@ -34,7 +33,6 @@ class DatabaseConnectorTest {
 
   @Test
   void testDatabaseConnectionFailure() {
-    // Mock Dotenv für fehlerhafte Verbindung
     mockedDotenv = Mockito.mockStatic(Dotenv.class);
     Dotenv mockDotenv = Mockito.mock(Dotenv.class);
     mockedDotenv.when(Dotenv::load).thenReturn(mockDotenv);
@@ -49,7 +47,7 @@ class DatabaseConnectorTest {
             SQLException.class,
             () -> {
               try (Connection connection = DatabaseConnector.getConnection()) {
-                connection.isValid(2); // Verbindung explizit validieren
+                connection.isValid(2);
               }
             });
 
@@ -62,7 +60,6 @@ class DatabaseConnectorTest {
 
   @Test
   void testDatabaseConnectionWrongCredentials() {
-    // Mock Dotenv für falsche Anmeldedaten
     mockedDotenv = Mockito.mockStatic(Dotenv.class);
     Dotenv mockDotenv = Mockito.mock(Dotenv.class);
     mockedDotenv.when(Dotenv::load).thenReturn(mockDotenv);
@@ -77,7 +74,7 @@ class DatabaseConnectorTest {
             SQLException.class,
             () -> {
               try (Connection connection = DatabaseConnector.getConnection()) {
-                connection.isValid(2); // Verbindung explizit validieren
+                connection.isValid(2);
               }
             });
 

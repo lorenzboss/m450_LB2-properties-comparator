@@ -21,7 +21,7 @@ public class DistrictValidationTest {
     assertTrue(
         exception
             .getMessage()
-            .contains("java.lang.NumberFormatException: For input string: \"holok\""),
+            .contains("java.lang.NumberFormatException: For input string: \"five\""),
         "Expected an error related to invalid JSON data.");
   }
 
@@ -36,4 +36,5 @@ public class DistrictValidationTest {
           assertFalse(districts.isEmpty(), "District list should not be empty for valid JSON.");
         });
   }
+
 }
